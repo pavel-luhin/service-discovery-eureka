@@ -1,4 +1,4 @@
-FROM maven:3-jdk-8
+FROM openjdk:8
 
 COPY target/service-discovery-eureka-1.0.jar /opt/service-discovery-eureka-1.0.jar
 
